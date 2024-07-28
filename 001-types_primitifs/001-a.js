@@ -22,15 +22,3 @@ console.log(varUndefined, typeof varUndefined);
 var varSymbol = Symbol('symbol');
 console.log(varSymbol, typeof varSymbol);
 // > Symbol(symbol) symbol
-
-var varNull = null;
-console.log(varNull, typeof varNull);
-// > null object
-
-var varArray = [];
-console.log(varArray, typeof varArray);
-// > [] object
-
-var varObject = {};
-console.log(varObject, typeof varObject);
-// > {} object
